@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <h1 id="title"><br />Structured Style Modeling for Expressive Text-to-Speech \\via Anchor-Guided Subspace Decomposition</h1>
+    <h1 id="title"><br />Structured Style Modeling for Expressive Text-to-Speech via Anchor-Guided Subspace Decomposition</h1>
     <p id="authors">
       Anonymous submission to Interspeech 2026
     </p>
@@ -45,10 +45,10 @@ Expressive text-to-speech (TTS) requires style representations that capture acou
       <img src="Architecture.PNG" alt="Model Figure" style="width: 100%; height: auto;">
     
       <div style="font-size: 0.85em; font-style: italic; line-height: 1.6; margin-top: 8px;">
-        (a) illustrates the structure of KES-TTS during the training step, while (b) presents the architecture of the emphasis predictors.
-        The emphasis predictors consist of three predictors with the same structure, each designed to estimate variations in pitch and duration.
-        (c) depicts the structure of the discriminator, and (d) shows the structure of KES-TTS during the inference step.
-        Keyword detection automatically identifies linguistically and acoustically important words from the text input.
+        Overall architecture of the proposed TTS framework: (a) FastSpeech2-based architecture with Conformer encoder and
+decoder, conditioned on speaker and emotion style embeddings extracted from reference speech. (b) Anchor-Regulated Style Encoder
+(ARSE) that derives complementary style components from multiple subspaces for multi-faceted style representation. (c) Anchor-Gated
+Redundancy Control (AGRC) module adaptively suppresses anchor-aligned components to regulate cross-subspace redundancy.
       </div>
     
     </div>
